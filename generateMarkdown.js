@@ -70,6 +70,10 @@ ${data.credits}
 ${licenseSection}
 
 ${licenseBadge}
+
+## Questions
+For any questions, you can find me on GitHub: [@${data.github}](https://github.com/${data.github})
+or contact me via email: ${data.email}.
 `;
 }
 
