@@ -30,7 +30,7 @@ Generated README Structure
 The generated README.md file follows a standard structure with sections for:
 
 ## Demonstration
-Please click the [link]() to see a brief video demo. 
+Please click the [link](https://drive.google.com/file/d/1A1y000KWQFpScnOfY4sRo6sCQple7Tsl/view) to see a brief video demo. 
 
 ## Credits
 N/A
