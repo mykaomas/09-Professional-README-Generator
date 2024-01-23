@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
-            writeToFile('README.md', answers);
+            writeToFile('GenerateREADME.md', answers);
         })
         .catch((error) => {
             console.error('Error during initialization:', error);
