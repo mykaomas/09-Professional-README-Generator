@@ -66,10 +66,7 @@ ${data.usage}
 ## Credits
 ${data.credits}
 
-## License
 ${licenseSection}
-
-${licenseBadge}
 
 ## Questions
 For any questions, you can find me on GitHub: [@${data.github}](https://github.com/${data.github})

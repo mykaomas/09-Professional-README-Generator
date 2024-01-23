@@ -56,8 +56,16 @@ function writeToFile(fileName, data) {
     console.log('README.md generated successfully.');
 }
 
-// TODO: Create a function to initialize app
-function init() {}
+// Initialize app
+function init() {
+    inquirer.prompt(questions)
+        .then((answers) => {
+            writeToFile('README.md', answers);
+        })
+        .catch((error) => {
+            console.error('Error during initialization:', error);
+        });
+}
 
 // Function call to initialize app
 init();
