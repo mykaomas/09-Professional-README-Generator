@@ -32,7 +32,7 @@ function renderLicenseSection(license) {
   if (license !== 'None') {
       return `## License
 
-This project is licensed under the ${license}. Click [here](${renderLicenseLink(license)}) for more details.
+This project is licensed under the ${license}. Click (${renderLicenseLink(license)}) for more details.
 
 ${renderLicenseBadge(license)}
 `;
